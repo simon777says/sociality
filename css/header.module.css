@@ -1,0 +1,45 @@
+.header {
+  grid-area: h;
+  height: 10vh;
+  background-color: rgba(12, 15, 212, 0.603);
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header img {
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.header input {
+  width: 400px;
+  opacity: 0.7;
+  margin: 20px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #031a80;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.but {
+  height: 40px;
+  margin: 20px;
+  font-weight: bold;
+  border-radius: 25%;
+  margin-right: 700px;
+}
+
+.but1 {
+  height: 40px;
+  font-weight: bold;
+  background-color: rgba(204, 84, 84, 0.815);
+  margin: 20px;
+  border-radius: 25%;
+}

@@ -1,0 +1,27 @@
+.sideBar {
+  min-height: 90vh;
+  min-height: 90vh;
+  grid-area: n;
+  opacity: 1.5;
+  font-size: 32px;
+  width: 300px;
+  background-color: rgba(14, 81, 182, 0.815);
+}
+
+.sideBarMenu {
+  width: 400px;
+  height: 90vh;
+}
+
+.sideBarMenu li {
+  padding: 30px;
+}
+
+.sideBarMenu a {
+  color: #1de699;
+  font-weight: bold;
+}
+
+.sideBarMenu a:active {
+  color: #000;
+}

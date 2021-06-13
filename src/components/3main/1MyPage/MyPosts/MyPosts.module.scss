@@ -1,0 +1,108 @@
+.myPosts {
+    max-width: 1350px;
+}
+.posts {
+    margin: 15px;
+    width: 90%;
+    background-color: rgba(68, 76, 200, 0.383);
+    min-height: 10px;
+    & .he {
+        display: inline-block;
+
+        & .ava {
+            display: inline-block;
+            border-radius: 50%;
+            grid-area: a;
+            height: 60px;
+            margin: 10px;
+        }
+        & .tit {
+            grid-area: t;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+            font-family: "Conv_Werbedeutsch";
+            font-weight: 500;
+        }
+    }
+}
+.bodyPost {
+    padding: 0 30px;
+    max-width: 1100px;
+}
+.activiti {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.likeAd {
+    height: 50px;
+}
+.like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Conv_VeronaRandom-Heavy";
+    font-size: 20px;
+    & a {
+        color: rgb(116, 24, 24);
+        &:visited {
+            color: rgb(233, 142, 24);
+        }
+    }
+}
+.dislike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Conv_VeronaRandom-Heavy";
+    font-size: 20px;
+    & a {
+        color: rgb(236, 138, 11);
+        &:visited {
+            color: #000;
+        }
+    }
+}
+.dislikeAd {
+    height: 50px;
+}
+.inputi {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.input {
+    font-size: 24px;
+    background: rgb(163, 205, 93);
+    background: linear-gradient(
+        90deg,
+        rgba(163, 205, 93, 1) 14%,
+        rgba(92, 184, 19, 0.7819502801120448) 47%,
+        rgba(41, 133, 32, 1) 81%,
+        rgba(126, 222, 21, 1) 100%
+    );
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    min-width: 220px;
+    min-height: 37px;
+    max-height: 140px;
+    max-width: 1100px;
+}
+.inputButton {
+    height: 20px;
+    border-radius: 5px;
+    background: rgb(93, 159, 205);
+    background: radial-gradient(
+        circle,
+        rgba(93, 159, 205, 1) 14%,
+        rgba(19, 184, 146, 0.7819502801120448) 51%,
+        rgba(32, 46, 133, 1) 100%,
+        rgba(126, 222, 21, 1) 100%
+    );
+}
+.revers {
+    display: flex;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Conv_Werbedeutsch";
+    src: url("../../../fonts/Werbedeutsch/Werbedeutsch.eot");
+    src: local("☺"), url("../../../fonts/Werbedeutsch/Werbedeutsch.woff") format("woff"),
+        url("../../../fonts/Werbedeutsch/Werbedeutsch.ttf") format("truetype"),
+        url("../../../fonts/Werbedeutsch/Werbedeutsch.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+//шрифт до лайків
+@font-face {
+    font-family: "Conv_VeronaRandom-Heavy";
+    src: url("../../../fonts/VeronaRandom-Heavy/VeronaRandom-Heavy.eot");
+    src: local("☺"), url("../../../fonts/VeronaRandom-Heavy/VeronaRandom-Heavy.woff") format("woff"),
+        url("../../../fonts/VeronaRandom-Heavy/VeronaRandom-Heavy.ttf") format("truetype"),
+        url("../../../fonts/VeronaRandom-Heavy/VeronaRandom-Heavy.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.posts {
+    margin: 15px;
+    width: 90%;
+    background-color: rgba(81, 83, 151, 0.185);
+    min-height: 400px;
+    & .he {
+        display: inline-block;
+
+        & .ava {
+            display: inline-block;
+            border-radius: 50%;
+            grid-area: a;
+            height: 60px;
+            margin: 10px;
+        }
+        & .tit {
+            grid-area: t;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+            font-family: "Conv_Werbedeutsch";
+            font-weight: 500;
+        }
+    }
+}
+.postImg {
+    grid-area: i;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+.activiti {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.likeAd {
+    height: 50px;
+}
+.like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Conv_VeronaRandom-Heavy";
+    font-size: 20px;
+    & a {
+        color: rgb(116, 24, 24);
+        &:visited {
+            color: rgb(233, 142, 24);
+        }
+    }
+}
+.dislike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Conv_VeronaRandom-Heavy";
+    font-size: 20px;
+    & a {
+        color: rgb(236, 138, 11);
+        &:visited {
+            color: #000;
+        }
+    }
+}
+.dislikeAd {
+    height: 50px;
+}

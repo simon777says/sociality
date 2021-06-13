@@ -1,0 +1,69 @@
+.Messages {
+    display: flex;
+}
+.dialogs {
+    background: rgb(93, 205, 185);
+    background: linear-gradient(
+        90deg,
+        rgba(93, 205, 185, 1) 14%,
+        rgba(82, 151, 203, 1) 44%,
+        rgba(21, 188, 222, 1) 100%,
+        rgba(2, 0, 36, 1) 100%
+    );
+    padding: 30px;
+    flex-basis: 400px;
+}
+.dialog_item {
+    padding: 20px;
+    font-size: 20px;
+    background: rgb(137, 137, 255);
+    background: linear-gradient(90deg, rgba(137, 137, 255, 1) 33%, rgba(2, 0, 36, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.message {
+    background-color: rgba(145, 175, 221, 0.418);
+    padding: 30px;
+    flex-basis: 700px;
+}
+.message_item {
+    padding: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(137, 137, 255, 1) 33%, rgba(0, 212, 255, 1) 100%);
+    margin: 5px;
+    border: 2px rgb(9, 17, 0);
+}
+.inputi {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.input {
+    font-size: 24px;
+    background: rgb(163, 205, 93);
+    background: linear-gradient(
+        90deg,
+        rgba(163, 205, 93, 1) 14%,
+        rgba(92, 184, 19, 0.7819502801120448) 47%,
+        rgba(41, 133, 32, 1) 81%,
+        rgba(126, 222, 21, 1) 100%
+    );
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    min-width: 305px;
+    min-height: 37px;
+    max-height: 140px;
+    max-width: 975px;
+}
+.inputButton {
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(93, 159, 205);
+    background: radial-gradient(
+        circle,
+        rgba(93, 159, 205, 1) 14%,
+        rgba(19, 184, 146, 0.7819502801120448) 51%,
+        rgba(32, 46, 133, 1) 100%,
+        rgba(126, 222, 21, 1) 100%
+    );
+}

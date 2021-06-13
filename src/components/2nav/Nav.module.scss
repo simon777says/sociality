@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Conv_BaskerOldAntique-Heavy";
+    src: url("../../fonts/BaskerOldAntique-Heavy/BaskerOldAntique-Heavy.eot");
+    src: local("☺"), url("../../fonts/BaskerOldAntique-Heavy/BaskerOldAntique-Heavy.woff") format("woff"),
+        url("../../fonts/BaskerOldAntique-Heavy/BaskerOldAntique-Heavy.ttf") format("truetype"),
+        url("../../fonts/BaskerOldAntique-Heavy/BaskerOldAntique-Heavy.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sideBar {
+    grid-area: n;
+
+    font-size: 32px;
+    width: 300px;
+    background-color: rgba(164, 188, 224, 0.582);
+    margin-top: 3px;
+}
+
+.sideBarMenu {
+    width: 400px;
+    & li {
+        padding: 30px;
+        font-family: "Conv_BaskerOldAntique-Heavy";
+        font-weight: bold;
+        & a:hover {
+            color: rgb(60, 36, 114);
+        }
+    }
+}
+
+.activel {
+    color: rgb(188, 155, 250);
+}
