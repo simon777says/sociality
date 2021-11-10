@@ -13,21 +13,22 @@ let initialState = {
 };
 
 const myPageReducer = (state = initialState, action) => {
-
-
     if (action.type === ADD_POST) {
         let newPost = {
             id: 6,
             myposts: state.myPageInput,
         }
-        state.myposts.push(newPost);
-        state.myPageInput = '';
+        return {
+            ...state, myposts: [...state.myposts, newPost], myPageInput: ''
+        };
 
     }
     else if (action.type === UPDATE_NEW_POST_TEXT) {
-        state.myPageInput = action.textPost;
+        return { ...state, myPageInput: action.textPost };
     }
     return state;
+
+
 }
 export const addPostActionCreator = () => ({ type: 'ADD-POST' })
 export const updateNewPostTextActionCreator = (text) => ({ type: 'UPDATE-NEW-POST-TEXT', textPost: text })
