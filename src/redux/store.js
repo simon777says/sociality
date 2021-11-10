@@ -33,7 +33,6 @@ let store = {
             ],
             newMessage: '',
         },
-        friendsP: {},
         musicP: {},
         settingsP: {},
     },

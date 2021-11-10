@@ -24,12 +24,10 @@ const messageReducer = (state = initialState, action) => {
             id: 5,
             message: state.newMessage,
         }
-        state.messages.push(newMessageText);
-        state.newMessage = '';
-
+        return { ...state, messages: [...state.messages, newMessageText], newMessage: '' };
     }
     else if (action.type === UPDATE_NEW_MESSAGE_TEXT) {
-        state.newMessage = action.newText;
+        return { ...state, newMessage: action.newText };
 
     }
     return state;

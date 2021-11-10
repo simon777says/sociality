@@ -6,13 +6,6 @@ const Music = (props) => {
     return (
         <div className={s.activiti}>
             <p>Music</p>
-            <p>Music</p>
-            <p>Music</p>
-            <p>Music</p>
-            <p>Music</p>
-            <p>Music</p>
-            <p>Music</p><p>Music</p>
-
         </div>
     )
 }

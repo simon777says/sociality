@@ -1,11 +1,13 @@
 import React from 'react';
 import s from './Messagess.module.scss';
 
-const Messagess = (props) => {
+const Messagess = (store) => {
     return (
         <div className={s.messagi}>
-            <div>{props.message}</div>
+            <div>{store.message}</div>
         </div>
     )
 }
 export default Messagess;
+
+// fetchMyTweets        

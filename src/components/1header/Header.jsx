@@ -7,7 +7,7 @@ function Header(props) {
             <img src={log} alt="sory"></img>
             <input type="text" />
             <button className={s.but}><a href="#">Found</a></button>
-            <button className={s.but1} ><a href="#">Sign Out</a></button>
+            <button className={s.but1}><a href="#">Sign Out</a></button>
         </header>
     );
 }
